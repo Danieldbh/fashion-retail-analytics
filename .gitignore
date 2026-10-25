@@ -1,0 +1,29 @@
+# Python environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Generated data, datasets, and databases are excluded by default until
+# their synthetic provenance has been separately verified for publication.
+synthetic_raw/
+synthetic_raw_backup/
+synthetic_retail_demo/
+*.db
+*.duckdb
+
+# Exclude Power BI files by default.
+*.pbix
+*.pbit
+
+# Allow the approved synthetic Power BI report.
+!powerbi/*.pbix
+
+# Local credentials and editor files
+.env
+.env.*
+.vscode/
+.idea/
+.DS_Store
+.vs/

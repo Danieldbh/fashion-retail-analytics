@@ -1,0 +1,5 @@
+numpy
+pandas
+duckdb
+xgboost
+mlxtend
